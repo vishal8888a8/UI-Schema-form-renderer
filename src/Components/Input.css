@@ -1,0 +1,21 @@
+.input_container{
+    margin:0.7rem;
+    padding: 5px;
+    width: 100%;
+    height: 6vh;
+    border: solid lightblue 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(238, 247, 248);
+    border-radius: 5px;
+}
+
+.input_container > input{
+    height: 4vh;
+    width: 50%;
+    padding: 4px;
+    background-color: rgb(199, 231, 241);
+    border: solid lightblue 1px;
+    border-radius: 5px;
+}

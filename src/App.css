@@ -1,0 +1,19 @@
+.App{
+  height: fit-content;
+  display: flex;
+}
+
+.left-section{
+  width: 49%;
+  height: 1000px;  
+}
+
+.right-section{
+  width: 49%;
+  height: 1000px;
+}
+
+.left-section > input {
+  height: 100vh;
+  width: 100%;
+}
