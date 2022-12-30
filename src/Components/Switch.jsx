@@ -1,9 +1,13 @@
 import React from "react";
+import './Switch.css'
 
-function Switch()
+function Switch(props)
 {
     return(
-        <div></div>
+        <div className="switch_container">  
+            <input type="checkbox" id="id_switch" name="" value=""></input>
+            <label for="id_switch">{props.obj.label}</label><br></br>
+        </div>
     )
 }
 

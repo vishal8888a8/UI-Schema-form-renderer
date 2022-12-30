@@ -11,8 +11,8 @@
 
 .input_container > input{
     height: 4vh;
-    width: 50%;
-    padding: 4px;
+    width: 47.5%;
+    padding: 3px;
     background-color: rgb(199, 231, 241);
     border: solid lightblue 1px;
     border-radius: 5px;

@@ -1,0 +1,12 @@
+.switch_container{
+    padding: 0.3rem;
+}
+
+.switch_container >label {
+    margin-left :0.3rem;
+    font-size: 14px;
+}
+
+.switch_container >input{
+    transform: scale(1.2);
+}
