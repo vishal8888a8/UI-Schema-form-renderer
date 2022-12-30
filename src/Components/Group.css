@@ -1,0 +1,11 @@
+.Group_container{
+    background-color:rgb(238, 247, 248);
+}
+
+.label{
+    padding: 0.6rem;
+}
+
+.line{
+    border-top: 1px solid lightblue;
+}

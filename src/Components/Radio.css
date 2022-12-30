@@ -1,19 +1,17 @@
 .radio_container{
-    margin:0.7rem;
-    padding: 15px 5px;
+    padding: 0.5rem;
     width: 100%;
     height: auto;
-    border: solid lightblue 2px;
     background-color: rgb(238, 247, 248);
-    border-radius: 5px;
+    box-sizing: border-box;
 }
 
 .radio_container > label{
     display: block;
-    margin-bottom: 1rem;
+    margin-bottom: 0.7rem;
 }
 
-.radio_container > .line {
+.line {
     border-top: 1px solid lightblue;
 }
 
@@ -22,17 +20,18 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-top: 0.7rem;
+    margin-top: 0.5rem;
 }
 
 .item{
-    width: 46%;
-    height: 2.1rem;
+    width: 48%;
+    height: 2.3rem;
     border: solid lightblue 2px;
-    text-align: center;
-    padding-top: 0.4rem;
     margin: 5px;
     background-color: rgb(199, 231, 241);
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 

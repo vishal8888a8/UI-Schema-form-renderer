@@ -4,7 +4,7 @@ function Input(props)
 {
     return(
         <div className="input_container">
-            <label>{props.label}</label>
+            <label>{props.obj.label}</label>
             <input placeholder="type your input here..."></input>
         </div>
     )
